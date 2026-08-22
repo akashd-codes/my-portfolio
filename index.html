@@ -1,0 +1,1662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akash D | CSE Student &amp; Aspiring Software Developer</title>
+  <meta name="description" content="Portfolio of Akash D, a Computer Science Engineering student and aspiring software developer interested in web development, Python, React, Node.js and software engineering." />
+  <meta property="og:title" content="Akash D | CSE Student &amp; Aspiring Software Developer" />
+  <meta property="og:description" content="Portfolio of Akash D, a Computer Science Engineering student and aspiring software developer." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>" />
+  <!-- Google Fonts & Font Awesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <nav id="navbar" style="position: fixed; top: 0; left: 0; right: 0; z-index: 1000; padding: 0 24px; height: 100px; display: flex; align-items: center;  backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); border-bottom: 1px solid rgba(var(--border-rgb, 226,232,240), 0.5); transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);">
+  
+  <div style="max-width: 1200px; width: 100%; margin: 100 auto; display: flex; align-items: center; justify-content: space-between;">
+    
+    <!-- Logo -->
+    <a href="#home" style="text-decoration: none; display: flex; align-items: center; gap: 10px; cursor: pointer;">
+      <div style="width: 40px; height: 40px; border-radius: 12px; background: linear-gradient(135deg, var(--primary), #7c3aed, #ec4899); display: flex; align-items: center; justify-content: center; color: white; font-weight: 800; font-size: 1.1rem; box-shadow: 0 4px 16px rgba(11, 88, 219, 0.3); transition: transform 0.3s ease;">
+        A
+      </div>
+      <div style="display: flex; flex-direction: column; line-height: 1.2;">
+        <span style="font-weight: 800; font-size: 1.2rem; letter-spacing: -0.5px; color: var(--text);">
+          akash<span style="color: var(--primary);">.</span><span style="color: var(--primary); font-weight: 600;">dev</span>
+        </span>
+        <span style="font-size: 0.55rem; font-weight: 600; color: var(--text2); letter-spacing: 1px; text-transform: uppercase; opacity: 0.7;">CSE Student</span>
+      </div>
+    </a>
+
+    <!-- Navigation Links -->
+    <ul style="display: flex; align-items: center; gap: 4px; list-style: none; margin-left : 220px; padding: 0; background: var(--surface2); padding: 10px; border-radius: 60px; border: 1px solid var(--border);" id="navLinks">
+      <li><a href="#home" style="text-decoration: none;  font-weight: 500; font-size: 0.8rem; padding: 6px 16px; border-radius: 40px; transition: all 0.3s ease; display: inline-block; position: relative;" class="nav-link ">Home</a></li>
+      <li><a href="#about" style="text-decoration: none;  font-weight: 500; font-size: 0.8rem; padding: 6px 16px; border-radius: 40px; transition: all 0.3s ease; display: inline-block; position: relative;" class="nav-link ">About</a></li>
+      <li><a href="#education" style="text-decoration: none;  font-weight: 500; font-size: 0.8rem; padding: 6px 16px; border-radius: 40px; transition: all 0.3s ease; display: inline-block; position: relative;" class="nav-link">Education</a></li>
+      <li><a href="#skills" style="text-decoration: none;  font-weight: 500; font-size: 0.8rem; padding: 6px 16px; border-radius: 40px; transition: all 0.3s ease; display: inline-block; position: relative;" class="nav-link">Skills</a></li>
+      <li><a href="#projects" style="text-decoration: none;  font-weight: 500; font-size: 0.8rem; padding: 6px 16px; border-radius: 40px; transition: all 0.3s ease; display: inline-block; position: relative;" class="nav-link">Projects</a></li>
+      <li><a href="#experience" style="text-decoration: none;  font-weight: 500; font-size: 0.8rem; padding: 6px 16px; border-radius: 40px; transition: all 0.3s ease; display: inline-block; position: relative;" class="nav-link">Experience</a></li>
+      <li><a href="#certifications" style="text-decoration: none;  font-weight: 500; font-size: 0.8rem; padding: 6px 16px; border-radius: 40px; transition: all 0.3s ease; display: inline-block; position: relative;" class="nav-link">Certifications</a></li>
+      <li><a href="#resume" style="text-decoration: none;  font-weight: 500; font-size: 0.8rem; padding: 6px 16px; border-radius: 40px; transition: all 0.3s ease; display: inline-block; position: relative;" class="nav-link">Resume</a></li>
+      <li><a href="#contact" style="text-decoration: none;  font-weight: 500; font-size: 0.8rem; padding: 6px 16px; border-radius: 40px; transition: all 0.3s ease; display: inline-block; position: relative;" class="nav-link">Contact</a></li>
+    </ul>
+
+    <!-- Right Actions -->
+    <div style="display: flex; align-items: center; gap: 12px;  margin-left: 200px;">
+      <!-- Status Indicator -->
+      <div style="display: flex; align-items: center; gap: 6px; background: rgba(16,185,129,0.12); padding: 6px 16px 6px 12px; border-radius: 60px; border: 1px solid rgba(16,185,129,0.2);">
+        <span style="display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #10b981; box-shadow: 0 0 0 3px rgba(16,185,129,0.2); animation: pulse-dot 2s ease-in-out infinite;"></span>
+        <span style="font-size: 0.65rem; font-weight: 600; color: #10b981;">Available</span>
+      </div>
+
+      <!-- Theme Toggle -->
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" style="background: var(--surface2); border: none; border-radius: 50%; width: 38px; height: 38px; font-size: 1rem; cursor: pointer; color: var(--text); transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; border: 1px solid var(--border);">
+        <i class="fas fa-moon"></i>
+      </button>
+      
+      <!-- Hamburger -->
+      <button class="hamburger" id="hamburger" aria-label="Menu" style="display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 4px;">
+        <span style="display: block; width: 26px; height: 2.5px; background: var(--text); border-radius: 4px; transition: all 0.3s ease;"></span>
+        <span style="display: block; width: 26px; height: 2.5px; background: var(--text); border-radius: 4px; transition: all 0.3s ease;"></span>
+        <span style="display: block; width: 26px; height: 2.5px; background: var(--text); border-radius: 4px; transition: all 0.3s ease;"></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+  <!-- HOME / HERO -->
+  <section id="home" class="active-section" style="padding-top: 40px;">
+    <!-- Background Effects -->
+  <div class="skills-bg">
+    <span class="glow glow-1"></span>
+    <span class="glow glow-2"></span>
+    <span class="grid-pattern"></span>
+  </div>
+    <div class="container hero">
+      <div class="hero-content">
+        <div class="status-badge"><i class="fas fa-circle"></i> Open to Internship Opportunities</div>
+        <h1>Hi, I'm <span>Akash</span> 👋</h1>
+        <div class="hero-sub">CSE Student | Aspiring Software Developer</div>
+        <p class="hero-desc">Computer Science Engineering student passionate about building web applications, solving programming problems, and learning modern software development.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary"><i class="fas fa-code"></i> View My Projects</a>
+          <a href="#resume" class="btn btn-outline"><i class="fas fa-file-pdf"></i> Download Resume</a>
+          <div class="hero-social">
+            <a href="https://github.com/akashd-code" class="btn btn-out"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/akashd-codes18" class="btn btn-out"><i class="fab fa-linkedin"></i></a>
+            <a href="#contact" class="btn btn-out"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-code">
+          <div class="line"><span class="comment">// aspiring dev</span></div>
+          <div class="line"><span class="keyword">const</span> developer = {</div>
+          <div class="line" style="padding-left:16px;">name: <span class="string">"Akash D"</span>,</div>
+          <div class="line" style="padding-left:16px;">role: <span class="string">"CSE Student"</span>,</div>
+          <div class="line" style="padding-left:16px;">learning: [<span class="string">"React"</span>, <span class="string">"Python"</span>, <span class="string">"DSA"</span>],</div>
+          <div class="line" style="padding-left:16px;"><span class="func">build</span>: () => <span class="string">"real-world apps"</span></div>
+          <div class="line">};</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+  <!----- ABOUT-->
+  <section id="about" style="background: var(--bg); padding: 40px 0; position: relative; overflow: hidden;">
+  <!-- Decorative background element -->
+ <!-- Background Effects -->
+  <div class="skills-bg">
+    <span class="glow glow-1"></span>
+    <span class="glow glow-2"></span>
+    <span class="grid-pattern"></span>
+  </div>
+  
+  <div class="container" style="position: relative; z-index: 1;">
+    <!-- Section Title - Redesigned -->
+    <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 48px;">
+      <!-- Icon with circle background -->
+      <div style="background: linear-gradient(135deg, var(--primary), #7c3aed); width: 48px; height: 48px; border-radius: 14px; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.3rem; box-shadow: 0 8px 24px rgba(37,99,235,0.25);">
+        <i class="fas fa-user"></i>
+      </div>
+      <h2 style="margin: 0; font-size: 2.4rem; font-weight: 900; letter-spacing: -0.03em; background: linear-gradient(135deg, var(--text), var(--primary)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+        About Me
+      </h2>
+      <div style="flex: 1; height: 2px; background: linear-gradient(90deg, var(--border), transparent);"></div>
+      <!-- Decorative dot -->
+      <div style="width: 8px; height: 8px; border-radius: 50%; background: var(--primary); opacity: 0.4;"></div>
+      <div style="width: 8px; height: 8px; border-radius: 50%; background: #7c3aed; opacity: 0.3;"></div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 50px; align-items: center;">
+
+      <!-- LEFT COLUMN: Profile with stats -->
+      <div>
+        <!-- Profile Image with ring -->
+        <div style="position: relative; text-align: center; top: -60px;">
+          <div style=" width: 280px; height: 280px; border-radius: 50%; margin: 0 auto; background: linear-gradient(135deg, var(--primary), #7c3aed, #ec4899); padding: 5px; box-shadow: 0 20px 60px rgba(37,99,235,0.3); animation: pulse-ring 3s ease-in-out infinite;">
+            <div style="width: 100%; height: 100%; border-radius: 50%; background: var(--surface); display: flex; align-items: center; justify-content: center; overflow: hidden;">
+              <img src="./profile.jpeg" alt="Akash D" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+            </div>
+          </div>
+          
+          <!-- Floating status badge -->
+          <div style="position: absolute; bottom: 10px; right: 20%; background: #10b981; color: white; padding: 6px 18px; border-radius: 40px; font-size: 0.8rem; font-weight: 600; display: flex; align-items: center; gap: 6px; box-shadow: 0 8px 20px rgba(16,185,129,0.3);">
+            <span style="display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: white; animation: blink 1.5s infinite;"></span>
+            Available
+          </div>
+        </div>
+
+        <!-- Stats row -->
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 30px; ">
+          <div style="background: var(--surface); padding: 16px; border-radius: var(--radius-sm); text-align: center; border: 1px solid var(--border); box-shadow: var(--shadow);">
+            <div style="font-size: 1.8rem; font-weight: 800; color: var(--primary);">4+</div>
+            <div style="color: var(--text2); font-size: 0.8rem; font-weight: 500;">Tech Stacks</div>
+          </div>
+          <div style="background: var(--surface); padding: 16px; border-radius: var(--radius-sm); text-align: center; border: 1px solid var(--border); box-shadow: var(--shadow);">
+            <div style="font-size: 1.8rem; font-weight: 800; color: #8b5cf6;">5+</div>
+            <div style="color: var(--text2); font-size: 0.8rem; font-weight: 500;">Projects</div>
+          </div>
+          <div style="background: var(--surface); padding: 16px; border-radius: var(--radius-sm); text-align: center; border: 1px solid var(--border); box-shadow: var(--shadow);">
+            <div style="font-size: 1.8rem; font-weight: 800; color: #f59e0b;">10+</div>
+          <div style="color: var(--text2); font-size: 0.8rem; font-weight: 500;">GitHub Repos</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN: Content -->
+      <div>
+        <!-- Name & Title -->
+        <div style="margin-bottom: 20px;">
+    <h3 style="font-size: 2rem; font-weight: 800; color: var(--text); margin: 0; letter-spacing: -0.02em; margin-left: 75px;">
+        Akash D
+    </h3>
+
+    <p style="color: var(--text2); font-size: 1.1rem; font-weight: 500; margin-top: 4px;">
+        <span style="background: var(--surface2); padding: 2px 12px; border-radius: 40px; font-size: 0.85rem; background-color:#7c3aed ; color:white; ">
+            CSE Student
+        </span>
+
+        <span style="margin: 0 6px;">·</span>
+
+        <span style="background: var(--surface2); padding: 2px 12px; border-radius: 40px; font-size: 0.85rem; background-color:#7c3aed ; color:white;">
+           Aspiring Software Engineer
+        </span>
+    </p>
+</div>
+
+        <!-- Bio -->
+        <div style="background: var(--surface); border-radius: var(--radius-sm); padding: 28px 30px; border: 1px solid var(--border); box-shadow: var(--shadow); margin-bottom: 24px; position: relative; overflow: hidden;">
+          <div style="position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: linear-gradient(180deg, var(--primary), #7c3aed);"></div>
+          <p style="font-size: 1.05rem; line-height: 1.8; color: var(--text); margin: 0;">
+            I'm a <strong style="color: var(--primary);">Computer Science Engineering</strong> student with a Diploma in Computer Science. 
+            I love building things — from web apps to solving complex problems. 
+            I work with <strong>Python, JavaScript, React, and Node.js</strong>, and I'm always learning something new.
+          </p>
+        </div>
+
+        <!-- Hobbies & Interests - Modern Chip Design -->
+        <div style="background: var(--surface); border-radius: var(--radius-sm); padding: 22px 26px; border: 1px solid var(--border); box-shadow: var(--shadow);">
+          <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 14px;">
+            <i class="fas fa-heart" style="color: #ec4899; font-size: 1.2rem;"></i>
+            <h4 style="margin: 0; font-size: 1rem; font-weight: 600; color: var(--text);">Hobbies & Interests</h4>
+          </div>
+          <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+            <span style="background: linear-gradient(135deg, #dbeafe, #eff6ff); color: #1e3a8a; padding: 8px 18px; border-radius: 40px; font-weight: 600; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 8px; border: 1px solid #bfdbfe;">
+              <i class="fas fa-code" style="color: var(--primary);"></i> Coding
+            </span>
+            <span style="background: linear-gradient(135deg, #ede9fe, #f5f3ff); color: #5b21b6; padding: 8px 18px; border-radius: 40px; font-weight: 600; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 8px; border: 1px solid #ddd6fe;">
+              <i class="fas fa-book" style="color: #7c3aed;"></i> Reading
+            </span>
+            <span style="background: linear-gradient(135deg, #d1fae5, #ecfdf5); color: #065f46; padding: 8px 18px; border-radius: 40px; font-weight: 600; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 8px; border: 1px solid #a7f3d0;">
+              <i class="fas fa-music" style="color: #10b981;"></i> Music
+            </span>
+            <span style="background: linear-gradient(135deg, #fef3c7, #fffbeb); color: #92400e; padding: 8px 18px; border-radius: 40px; font-weight: 600; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 8px; border: 1px solid #fde68a;">
+              <i class="fas fa-gamepad" style="color: #f59e0b;"></i> Gaming
+            </span>
+            <span style="background: linear-gradient(135deg, #e0e7ff, #eef2ff); color: #3730a3; padding: 8px 18px; border-radius: 40px; font-weight: 600; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 8px; border: 1px solid #c7d2fe;">
+              <i class="fas fa-robot" style="color: #6366f1;"></i> AI Enthusiast
+            </span>
+            <span style="background: linear-gradient(135deg, #dbeafe, #eff6ff); color: #1e3a8a; padding: 8px 18px; border-radius: 40px; font-weight: 600; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 8px; border: 1px solid #bfdbfe;">
+              <i class="fas fa-plane" style="color: #3b82f6;"></i> Travel
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EDUCATION ================= -->
+<section id="education">
+
+  <div class="container">
+
+    <!-- Section Header -->
+    <div class="education-header">
+
+      <div class="education-title-icon">
+        <i class="fas fa-graduation-cap"></i>
+      </div>
+
+      <div>
+        <span class="education-label">Academic Journey</span>
+
+        <h2>Education</h2>
+
+        <p>
+          My academic journey from secondary education to
+          Computer Science Engineering.
+        </p>
+      </div>
+
+    </div>
+
+
+    <!-- Education Cards -->
+    <div class="education-grid">
+
+
+      <!-- ================= B.E. ================= -->
+      <div class="education-card current">
+
+        <div class="education-top">
+
+          <div class="education-icon">
+            <i class="fas fa-university"></i>
+          </div>
+
+          <div class="education-status">
+            <span class="status-dot"></span>
+            Currently Pursuing
+          </div>
+
+        </div>
+
+
+        <div class="education-main">
+
+          <span class="education-level">
+            B.E. · Lateral Entry
+          </span>
+
+          <h3>
+            Computer Science & Engineering
+          </h3>
+
+          <p class="education-institute">
+            <i class="fas fa-building-columns"></i>
+            [ADD COLLEGE NAME]
+          </p>
+
+        </div>
+
+
+        <div class="education-info">
+
+          <div class="info-item">
+
+            <i class="far fa-calendar-alt"></i>
+
+            <div>
+              <small>Duration</small>
+              <strong>2026 – 2029</strong>
+            </div>
+
+          </div>
+
+
+          <div class="info-item">
+
+            <i class="fas fa-user-graduate"></i>
+
+            <div>
+              <small>Admission</small>
+              <strong>DCET Lateral Entry</strong>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="education-tags">
+
+          <span>
+            <i class="fas fa-code"></i>
+            Computer Science
+          </span>
+
+          <span>
+            <i class="fas fa-chart-line"></i>
+            CGPA: —
+          </span>
+
+          <span>
+            <i class="fas fa-building-columns"></i>
+            University: —
+          </span>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- ================= DIPLOMA ================= -->
+      <div class="education-card diploma">
+
+        <div class="education-top">
+
+          <div class="education-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+
+          <div class="education-status completed">
+            <i class="fas fa-check-circle"></i>
+            Completed
+          </div>
+
+        </div>
+
+
+        <div class="education-main">
+
+          <span class="education-level">
+            Diploma
+          </span>
+
+          <h3>
+            Computer Science & Engineering
+          </h3>
+
+          <p class="education-institute">
+            <i class="fas fa-building-columns"></i>
+            SREE BAHUBALI POLYTECHNIC
+          </p>
+
+        </div>
+
+
+        <div class="education-info">
+
+          <div class="info-item">
+
+            <i class="far fa-calendar-alt"></i>
+
+            <div>
+              <small>Duration</small>
+              <strong>2023 – 2026</strong>
+            </div>
+
+          </div>
+
+
+          <div class="info-item">
+
+            <i class="fas fa-star"></i>
+
+            <div>
+              <small>CGPA</small>
+              <strong>9.77 / 10</strong>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="education-tags">
+
+          <span>
+            <i class="fas fa-laptop-code"></i>
+            Computer Science
+          </span>
+
+          <span>
+            <i class="fas fa-percent"></i>
+            CGPA: 9.77
+          </span>
+
+          <span>
+            <i class="fas fa-building-columns"></i>
+            Board: DTE
+          </span>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- ================= SSLC ================= -->
+      <div class="education-card sslc">
+
+        <div class="education-top">
+
+          <div class="education-icon">
+            <i class="fas fa-school"></i>
+          </div>
+
+          <div class="education-status completed">
+            <i class="fas fa-check-circle"></i>
+            Completed
+          </div>
+
+        </div>
+
+
+        <div class="education-main">
+
+          <span class="education-level">
+            Secondary Education
+          </span>
+
+          <h3>
+            SSLC
+          </h3>
+
+          <p class="education-institute">
+            <i class="fas fa-school"></i>
+            GOVT. JUNIOR HIGH SCHOOL
+          </p>
+
+        </div>
+
+
+        <div class="education-info">
+
+          <div class="info-item">
+
+            <i class="far fa-calendar-alt"></i>
+
+            <div>
+              <small>Duration</small>
+              <strong>2021 – 2023</strong>
+            </div>
+
+          </div>
+
+
+          <div class="info-item">
+
+            <i class="fas fa-trophy"></i>
+
+            <div>
+              <small>Percentage</small>
+              <strong>93%</strong>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="education-tags">
+
+          <span>
+            <i class="fas fa-school"></i>
+            SSLC
+          </span>
+
+          <span>
+            <i class="fas fa-percent"></i>
+            93%
+          </span>
+
+          <span>
+            <i class="fas fa-building-columns"></i>
+            Board: KSEEB
+          </span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- Journey Line -->
+    <div class="education-journey">
+
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+
+    </div>
+
+  </div>
+
+</section>
+</section>
+
+ <!-- ==================== SKILLS SECTION ==================== -->
+<section id="skills" class="skills-section">
+
+  <!-- Background Effects -->
+  <div class="skills-bg">
+    <span class="glow glow-1"></span>
+    <span class="glow glow-2"></span>
+    <span class="grid-pattern"></span>
+  </div>
+
+  <div class="skills-container">
+
+    <!-- Section Header -->
+    <div class="skills-header">
+
+      <div class="section-badge">
+        <span class="badge-dot"></span>
+        My Skills
+      </div>
+
+      <h2>
+        Technologies I
+        <span>Work With</span>
+      </h2>
+
+      <p>
+        A collection of technologies and tools I'm learning,
+        building with, and continuously improving.
+      </p>
+
+    </div>
+
+
+    <!-- Skills Grid -->
+    <div class="skills-grid">
+
+
+      <!-- ================= LANGUAGES ================= -->
+      <div class="skill-card">
+
+        <div class="card-glow"></div>
+
+        <div class="skill-top">
+
+          <div class="skill-icon language-icon">
+            <i class="fas fa-code"></i>
+          </div>
+
+          <div class="skill-title">
+            <h3>Programming</h3>
+            <p>Languages</p>
+          </div>
+
+        
+
+        </div>
+
+        <div class="skill-items">
+
+          <div class="skill-item">
+            <span class="tech-icon python">
+              <i class="fab fa-python"></i>
+            </span>
+            <span>Python</span>
+          </div>
+
+          <div class="skill-item">
+            <span class="tech-icon javascript">
+              <i class="fab fa-js"></i>
+            </span>
+            <span>JavaScript</span>
+          </div>
+
+          <div class="skill-item">
+            <span class="tech-icon java">
+              <i class="fab fa-java"></i>
+            </span>
+            <span>Mongodb</span>
+          </div>
+
+
+        </div>
+
+      </div>
+
+
+      <!-- ================= FRONTEND ================= -->
+      <div class="skill-card">
+
+        <div class="card-glow"></div>
+
+        <div class="skill-top">
+
+          <div class="skill-icon frontend-icon">
+            <i class="fas fa-layer-group"></i>
+          </div>
+
+          <div class="skill-title">
+            <h3>Frontend</h3>
+            <p>Web Development</p>
+          </div>
+
+
+        </div>
+
+        <div class="skill-items">
+
+          <div class="skill-item">
+            <span class="tech-icon html">
+              <i class="fab fa-html5"></i>
+            </span>
+            <span>HTML5</span>
+          </div>
+
+          <div class="skill-item">
+            <span class="tech-icon css">
+              <i class="fab fa-css3-alt"></i>
+            </span>
+            <span>CSS3</span>
+          </div>
+
+          <div class="skill-item">
+            <span class="tech-icon react">
+              <i class="fab fa-react"></i>
+            </span>
+            <span>React</span>
+          </div>
+
+          <div class="skill-item">
+            <span class="tech-icon bootstrap">
+              <i class="fab fa-bootstrap"></i>
+            </span>
+            <span>Bootstrap</span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- ================= BACKEND ================= -->
+      <div class="skill-card">
+
+        <div class="card-glow"></div>
+
+        <div class="skill-top">
+
+          <div class="skill-icon backend-icon">
+            <i class="fas fa-server"></i>
+          </div>
+
+          <div class="skill-title">
+            <h3>Backend</h3>
+            <p>Server Development</p>
+          </div>
+
+        </div>
+
+        <div class="skill-items">
+
+          <div class="skill-item">
+            <span class="tech-icon node">
+              <i class="fab fa-node-js"></i>
+            </span>
+            <span>Node.js</span>
+          </div>
+
+          <div class="skill-item">
+            <span class="tech-icon express">
+              <i class="fas fa-bolt"></i>
+            </span>
+            <span>Express.js</span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- ================= DATABASE ================= -->
+      <div class="skill-card">
+
+        <div class="card-glow"></div>
+
+        <div class="skill-top">
+
+          <div class="skill-icon database-icon">
+            <i class="fas fa-database"></i>
+          </div>
+
+          <div class="skill-title">
+            <h3>Database</h3>
+            <p>Data Management</p>
+          </div>
+
+
+        </div>
+
+        <div class="skill-items">
+
+          <div class="skill-item">
+            <span class="tech-icon mongodb">
+              <i class="fas fa-leaf"></i>
+            </span>
+            <span>MongoDB</span>
+          </div>
+
+          <div class="skill-item">
+            <span class="tech-icon mysql">
+              <i class="fas fa-database"></i>
+            </span>
+            <span>MySQL</span>
+          </div>
+
+
+        </div>
+
+      </div>
+
+
+      <!-- ================= TOOLS ================= -->
+      <div class="skill-card">
+
+        <div class="card-glow"></div>
+
+        <div class="skill-top">
+
+          <div class="skill-icon tools-icon">
+            <i class="fas fa-toolbox"></i>
+          </div>
+
+          <div class="skill-title">
+            <h3>Developer Tools</h3>
+            <p>Workflow & Tools</p>
+          </div>
+
+          <span class="level proficient">Proficient</span>
+
+        </div>
+
+        <div class="skill-items">
+
+          <div class="skill-item">
+            <span class="tech-icon git">
+              <i class="fab fa-git-alt"></i>
+            </span>
+            <span>Git</span>
+          </div>
+
+          <div class="skill-item">
+            <span class="tech-icon github">
+              <i class="fab fa-github"></i>
+            </span>
+            <span>GitHub</span>
+          </div>
+
+          <div class="skill-item">
+            <span class="tech-icon vscode">
+              <i class="fas fa-code"></i>
+            </span>
+            <span>VS Code</span>
+          </div>
+
+          <div class="skill-item">
+            <span class="tech-icon postman">
+              <i class="fas fa-paper-plane"></i>
+            </span>
+            <span>Postman</span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- ================= LEARNING ================= -->
+      <div class="skill-card learning-card">
+
+        <div class="learning-line"></div>
+
+        <div class="skill-top">
+
+          <div class="skill-icon learning-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+
+          <div class="skill-title">
+            <h3>Currently Learning</h3>
+            <p>Growing every day</p>
+          </div>
+
+          <span class="live-status">
+            <span></span>
+            Active
+          </span>
+
+        </div>
+
+        <div class="learning-skills">
+
+          <span>DSA</span>
+          <span>Advanced JavaScript</span>
+          <span>REST APIs</span>
+          <span>Problem Solving</span>
+
+        </div>
+
+        <div class="progress-area">
+
+          <div class="progress-info">
+            <span>Learning Progress</span>
+            <strong>65%</strong>
+          </div>
+
+          <div class="progress-bar">
+            <div class="progress-fill"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+</section>
+
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <!-- Background Effects -->
+  <div class="skills-bg">
+    <span class="glow glow-1"></span>
+    <span class="glow glow-2"></span>
+    <span class="grid-pattern"></span>
+  </div>
+    <div class="container">
+      <h2><i class="fas fa-folder-open"></i> Featured Projects</h2>
+      <div class="grid-2">
+        <!-- Project 1 -->
+        <div class="card">
+          <h3><i class="fas fa-seedling"></i> Farmer Harvest Connect</h3>
+          <div class="meta">MERN Stack</div>
+          <p>A digital platform connecting farmers with buyers, managing crop listings, orders, and transactions.</p>
+          <div class="tags"><span>React</span><span>Node.js</span><span>Express</span><span>MongoDB</span><span>Bootstrap</span></div>
+          <div class="card-actions"><a href="#" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a><a href="#" class="btn btn-primary">Live Demo</a></div>
+        </div>
+        <!-- Project 2 -->
+        <div class="card">
+          <h3><i class="fas fa-newspaper"></i> Campus News Portal</h3>
+          <div class="meta">React + Node.js + MongoDB</div>
+          <p>Campus communication platform for publishing and managing college news for students and teachers.</p>
+          <div class="tags"><span>React</span><span>Node.js</span><span>Express</span><span>MongoDB</span><span>Bootstrap</span></div>
+          <div class="card-actions"><a href="#" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a><a href="#" class="btn btn-primary">Live Demo</a></div>
+        </div>
+        <!-- Project 3 -->
+        <div class="card">
+          <h3><i class="fas fa-book"></i> Library Management System</h3>
+          <div class="meta">Python + SQLite + Bootstrap</div>
+          <p>Manage books, members, issuing and returning books with SQLite database.</p>
+          <div class="tags"><span>Python</span><span>SQLite</span><span>Bootstrap</span></div>
+          <div class="card-actions"><a href="#" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a><a href="#" class="btn btn-primary">Live Demo</a></div>
+        </div>
+        <!-- Project 4 -->
+        <div class="card">
+          <h3><i class="fas fa-chart-line"></i> Student Result System</h3>
+          <div class="meta">React + Node.js + MongoDB</div>
+          <p>Manage student marks, automatic total and percentage calculation, result dashboard.</p>
+          <div class="tags"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+          <div class="card-actions"><a href="#" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a><a href="#" class="btn btn-primary">Live Demo</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE / CAREER STATUS -->
+<section id="experience" >
+
+  <div class="container">
+
+    <!-- Section Header -->
+    <div class="experience-header">
+
+      <span class="experience-badge">
+        <i class="fas fa-rocket"></i>
+        Career Journey
+      </span>
+
+      <h2>
+        Ready for My
+        <span>First Opportunity</span>
+      </h2>
+
+      <p>
+        I'm currently building my skills, projects, and practical
+        experience as a Computer Science Engineering student.
+      </p>
+
+    </div>
+
+
+    <!-- Career Card -->
+    <div class="career-card">
+
+      <div class="career-glow"></div>
+
+      <!-- Icon -->
+      <div class="career-icon">
+        <i class="fas fa-code"></i>
+      </div>
+
+
+      <!-- Status -->
+      <div class="career-content">
+
+        <div class="status">
+          <span class="status-dot"></span>
+          Open to Opportunities
+        </div>
+
+        <h3>
+          Looking for My First
+          <span>Software Internship</span>
+        </h3>
+
+        <p class="career-description">
+          I don't have professional work experience yet, but I'm actively
+          developing my programming and software development skills through
+          academic learning and personal projects.
+        </p>
+
+
+        <!-- Areas -->
+        <div class="interest-title">
+          <i class="fas fa-layer-group"></i>
+          Interested In
+        </div>
+
+        <div class="interest-tags">
+
+          <span>
+            <i class="fas fa-globe"></i>
+            Full Stack Development
+          </span>
+
+          <span>
+            <i class="fas fa-code"></i>
+            Web Development
+          </span>
+
+          <span>
+            <i class="fab fa-python"></i>
+            Python
+          </span>
+
+          <span>
+            <i class="fas fa-server"></i>
+            Backend Development
+          </span>
+
+        </div>
+
+
+        <!-- Bottom -->
+        <div class="career-bottom">
+
+          <p>
+            <i class="fas fa-graduation-cap"></i>
+            Student Developer · Open to Learning
+          </p>
+
+          <a href="#contact" class="btn btn-primary">
+            <i class="fas fa-paper-plane"></i>
+            Let's Connect
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+  <!-- ================= CERTIFICATIONS ================= -->
+<section id="certifications">
+
+  <div class="container">
+
+    <!-- Header -->
+    <div class="cert-header">
+
+      <span class="cert-badge">
+        <i class="fas fa-award"></i>
+        Achievements
+      </span>
+
+      <h2>
+        My
+        <span>Certifications</span>
+      </h2>
+
+      <p>
+        Certifications and learning achievements that showcase
+        my continuous growth in technology and software development.
+      </p>
+
+    </div>
+
+
+    <!-- Certifications Grid -->
+    <div class="cert-grid">
+
+
+      <!-- ================= HACKERRANK ================= -->
+      <div class="cert-card">
+
+        <div class="cert-icon hackerrank">
+          <i class="fas fa-code"></i>
+        </div>
+
+        <div class="cert-content">
+
+          <span class="cert-type">
+            Programming
+          </span>
+
+          <h3>Python Programming</h3>
+
+          <p class="issuer">
+            <i class="fas fa-building"></i>
+            HackerRank
+          </p>
+
+          <p class="cert-description">
+            Certificate demonstrating Python programming knowledge
+            and problem-solving skills.
+          </p>
+
+          <button
+            class="view-cert"
+            onclick="openCertificate('images/crt1.jpeg', 'HackerRank Python Certificate')">
+
+            <i class="fas fa-eye"></i>
+            View Certificate
+
+          </button>
+
+        </div>
+
+        <span class="cert-number">01</span>
+
+      </div>
+
+
+      <!-- ================= DELOITTE ================= -->
+      <div class="cert-card">
+
+        <div class="cert-icon deloitte">
+          <i class="fas fa-briefcase"></i>
+        </div>
+
+        <div class="cert-content">
+
+          <span class="cert-type">
+            Professional
+          </span>
+
+          <h3>Deloitte Certificate</h3>
+
+          <p class="issuer">
+            <i class="fas fa-building"></i>
+            Deloitte
+          </p>
+
+          <p class="cert-description">
+            Professional learning achievement demonstrating
+            participation and completion of the program.
+          </p>
+
+          <button
+            class="view-cert"
+            onclick="openCertificate('images/crt2.jpeg', 'Deloitte Certificate')">
+
+            <i class="fas fa-eye"></i>
+            View Certificate
+
+          </button>
+
+        </div>
+
+        <span class="cert-number">02</span>
+
+      </div>
+
+
+      <!-- ================= SIMPLILEARN ================= -->
+      <div class="cert-card">
+
+        <div class="cert-icon simplilearn">
+          <i class="fas fa-graduation-cap"></i>
+        </div>
+
+        <div class="cert-content">
+
+          <span class="cert-type">
+            Online Learning
+          </span>
+
+          <h3>Technology Certification</h3>
+
+          <p class="issuer">
+            <i class="fas fa-building"></i>
+            Simplilearn
+          </p>
+
+          <p class="cert-description">
+            Online learning certification demonstrating
+            successful completion of the course.
+          </p>
+
+          <button
+            class="view-cert"
+            onclick="openCertificate('images/crt3.jpeg', 'Simplilearn Certificate')">
+
+            <i class="fas fa-eye"></i>
+            View Certificate
+
+          </button>
+
+        </div>
+
+        <span class="cert-number">03</span>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- ================= CERTIFICATE MODAL ================= -->
+
+  <div id="certificateModal" class="certificate-modal">
+
+    <div class="certificate-overlay"
+         onclick="closeCertificate()">
+    </div>
+
+    <div class="certificate-viewer">
+
+      <button
+        class="certificate-close"
+        onclick="closeCertificate()">
+
+        <i class="fas fa-times"></i>
+
+      </button>
+
+      <div class="certificate-title">
+        <i class="fas fa-certificate"></i>
+        <span id="certificateTitle">
+          Certificate
+        </span>
+      </div>
+
+      <div class="certificate-image-container">
+
+        <img
+          id="certificateImage"
+          src=""
+          alt="Certificate">
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= RESUME ================= -->
+<section id="resume">
+
+  <div class="container">
+
+    <div class="resume-card">
+
+      <!-- Decorative Background -->
+      <div class="resume-glow resume-glow-1"></div>
+      <div class="resume-glow resume-glow-2"></div>
+
+      <div class="resume-content">
+
+        <!-- ================= LEFT : RESUME PREVIEW ================= -->
+        <div class="resume-preview">
+
+          <div class="paper">
+
+            <div class="paper-top">
+
+              <div class="paper-avatar">
+                A
+              </div>
+
+              <div>
+                <strong>Akash D</strong>
+
+                <small>
+                  Computer Science Engineering
+                </small>
+              </div>
+
+            </div>
+
+
+            <div class="paper-lines">
+
+              <span class="long"></span>
+              <span></span>
+              <span class="medium"></span>
+
+              <div class="paper-section"></div>
+
+              <span></span>
+              <span class="long"></span>
+              <span class="short"></span>
+
+              <div class="paper-section"></div>
+
+              <span class="medium"></span>
+              <span></span>
+              <span class="long"></span>
+
+            </div>
+
+
+            <div class="paper-footer">
+
+              <i class="fas fa-file-pdf"></i>
+
+              Resume.pdf
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- ================= RIGHT : RESUME DETAILS ================= -->
+        <div class="resume-text">
+
+          <div class="resume-icon">
+            <i class="fas fa-file-lines"></i>
+          </div>
+
+          <span class="resume-label">
+            <i class="fas fa-circle-check"></i>
+            Available for Opportunities
+          </span>
+
+          <h2>
+            My <span>Resume</span>
+          </h2>
+
+          <p>
+            Explore my education, technical skills, projects,
+            certifications, and career goals in my latest resume.
+          </p>
+
+
+          <!-- Resume Information -->
+          <div class="resume-meta">
+
+            <span>
+              <i class="fas fa-file-pdf"></i>
+              PDF Document
+            </span>
+
+            <span>
+              <i class="fas fa-user-graduate"></i>
+              CSE Student
+            </span>
+
+            <span>
+              <i class="fas fa-code"></i>
+              Software Developer
+            </span>
+
+          </div>
+
+
+          <!-- Buttons -->
+          <div class="resume-actions">
+
+            <a
+              href="resume/Akash-D-Resume.pdf"
+              download
+              class="btn btn-primary resume-btn">
+
+              <i class="fas fa-download"></i>
+              Download Resume
+
+            </a>
+
+
+            <a
+              href="resume/Akash-D-Resume.pdf"
+              target="_blank"
+              class="btn btn-outline resume-btn">
+
+              <i class="fas fa-eye"></i>
+              View Resume
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- ================= CONTACT ================= -->
+<section id="contact">
+
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="contact-heading">
+
+      <span class="section-label">
+        <i class="fas fa-paper-plane"></i>
+        GET IN TOUCH
+      </span>
+
+      <h2>
+        Let's Build Something
+        <span>Together</span>
+      </h2>
+
+      <p>
+        Have an internship opportunity, project idea, or just want to
+        connect? I'd love to hear from you.
+      </p>
+
+    </div>
+
+
+    <!-- Contact Main Card -->
+    <div class="contact-card">
+
+
+      <!-- ================= LEFT SIDE ================= -->
+      <div class="contact-info">
+
+
+        <div class="contact-intro">
+
+          <div class="contact-icon-main">
+            <i class="fas fa-comments"></i>
+          </div>
+
+          <div>
+
+            <h3>Let's Connect</h3>
+
+            <p>
+              I'm always interested in learning, collaborating,
+              and exploring new opportunities.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- Email -->
+        <a
+          href="mailto:akashd.cse18@gmail.com"
+          class="contact-item">
+
+          <div class="contact-item-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+
+          <div>
+            <small>Email</small>
+            <strong>akashd.cse18@gmail.com</strong>
+          </div>
+
+          <i class="fas fa-arrow-up-right-from-square contact-arrow"></i>
+
+        </a>
+
+
+        <!-- GitHub -->
+        <a
+          href="https://github.com/akashd-code"
+          target="_blank"
+          class="contact-item">
+
+          <div class="contact-item-icon">
+            <i class="fab fa-github"></i>
+          </div>
+
+          <div>
+            <small>GitHub</small>
+            <strong>github.com/akashd-code</strong>
+          </div>
+
+          <i class="fas fa-arrow-up-right-from-square contact-arrow"></i>
+
+        </a>
+
+
+        <!-- LinkedIn -->
+        <a
+          href="https://www.linkedin.com/in/akashd-codes18"
+          target="_blank"
+          class="contact-item">
+
+          <div class="contact-item-icon">
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+
+          <div>
+            <small>LinkedIn</small>
+            <strong>linkedin.com/in/akash-d</strong>
+          </div>
+
+          <i class="fas fa-arrow-up-right-from-square contact-arrow"></i>
+
+        </a>
+
+
+        <!-- Availability -->
+        <div class="availability">
+
+          <span class="availability-dot"></span>
+
+          <div>
+
+            <strong>Open to opportunities</strong>
+
+            <small>
+              Internships · Projects · Collaboration
+            </small>
+
+          </div>
+
+        </div>
+
+
+        <!-- Social Buttons -->
+        <div class="contact-socials">
+
+          <a href="#" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a href="#" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+
+          <a href="mailto:akash.d@example.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- ================= RIGHT SIDE : FORM ================= -->
+      <div class="contact-form-wrapper">
+
+        <div class="form-header">
+
+          <span class="form-number">
+            01
+          </span>
+
+          <div>
+
+            <h3>Send Me a Message</h3>
+
+            <p>
+              I'll get back to you as soon as possible.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <form
+    id="contactForm"
+    action="https://formspree.io/f/xqpzdygq"
+    method="POST"
+  >
+
+
+          <!-- Name -->
+          <div class="form-group">
+
+            <label for="name">
+              <i class="fas fa-user"></i>
+              Your Name
+            </label>
+
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              required />
+
+          </div>
+
+
+          <!-- Email -->
+          <div class="form-group">
+
+            <label for="email">
+              <i class="fas fa-envelope"></i>
+              Email Address
+            </label>
+
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="you@example.com"
+              required />
+
+          </div>
+
+
+          <!-- Message -->
+          <div class="form-group">
+
+            <label for="message">
+              <i class="fas fa-message"></i>
+              Your Message
+            </label>
+
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Tell me about your project or opportunity..."
+              required></textarea>
+
+          </div>
+
+
+          <!-- Submit -->
+          <button
+            type="submit"
+            class="btn btn-primary contact-submit">
+
+            <i class="fas fa-paper-plane"></i>
+
+            Send Message
+
+            <span class="submit-arrow">
+              <i class="fas fa-arrow-right"></i>
+            </span>
+
+          </button>
+
+
+          <p class="form-note">
+
+            <i class="fas fa-lock"></i>
+
+            Your information will only be used to respond to your message.
+
+          </p>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div style="font-weight:600; font-size:1.2rem;">Akash D</div>
+      <div style="color:var(--text2);">CSE Student | Aspiring Software Developer</div>
+      <div class="footer-links">
+        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:akash.d@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+      <div style="font-size:0.85rem;">&copy; 2026 Akash D. All rights reserved.</div>
+    </div>
+  </footer>
+
+</section>
+
+
+
+  <script src="script.js"></script> 
+</body>
+</html>
